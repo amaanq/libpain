@@ -9,11 +9,11 @@
 
 #include <android/log.h>
 
-class fuck
+class pain
 {
 public:
     static int load();
     static int init();
-    fuck();
-    ~fuck();
+    pain();
+    ~pain();
 };

@@ -6,8 +6,8 @@ APP_OPTIM := debug      # debug mode
 APP_CFLAGS := -g        # compiler instruction
 APP_ABI := armeabi-v7a  # build for armeabi-v7a architecture
 
-LOCAL_MODULE := fuck
-LOCAL_SRC_FILES := fuck.cpp
+LOCAL_MODULE := pain
+LOCAL_SRC_FILES := pain.cpp
 LOCAL_LDLIBS := -llog   # to allow android logging
 
 NDK_DEBUG := 1

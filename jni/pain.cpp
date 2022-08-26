@@ -1,8 +1,8 @@
-#include "fuck.h"
+#include "pain.h"
 
-#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "fuck", __VA_ARGS__))
-#define LOGW(...) ((void)__android_log_print(ANDROID_LOG_WARN, "fuck", __VA_ARGS__))
-#define LOGE(...) ((void)__android_log_print(ANDROID_LOG_ERROR, "fuck", __VA_ARGS__))
+#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "pain", __VA_ARGS__))
+#define LOGW(...) ((void)__android_log_print(ANDROID_LOG_WARN, "pain", __VA_ARGS__))
+#define LOGE(...) ((void)__android_log_print(ANDROID_LOG_ERROR, "pain", __VA_ARGS__))
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,11 +17,11 @@ extern "C"
 {
     int echo_hi()
     {
-        LOGI("Hello from libfuck!");
+        LOGI("Hello from libpain!");
         return 0;
     }
 
-    int fuck::init()
+    int pain::init()
     {
         LOGI("Init called!");
         // setup something, like maybe connecting to a proxy server :)
@@ -29,9 +29,9 @@ extern "C"
         return 0;
     }
 
-    int fuck::load()
+    int pain::load()
     {
-        LOGI("Loading libfuck! Let's inject some code!");
+        LOGI("Loading libpain! Let's inject some code!");
         // do whatever, we're hooking this right? 🙃
         return 0;
     }
