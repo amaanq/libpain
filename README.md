@@ -9,13 +9,13 @@ Painful understanding of shared objects and the Android NDK Toolchain, has instr
 
 # Installation Guide
 
-## Arch Linux (don't care about the rest)
+## Arch Linux
 
 ```sh
 yay -S android-studio android-platform android-sdk-platform-tools android-sdk-build-tools android-sdk-cmdline-tools
 ```
 
-There's 2 ways ot do this, using Android Studio to install or a standalone toolchain.
+There's 2 ways to do this, using Android Studio to install or a standalone toolchain.
 
 I promote either way but the former is easier so fire up Android Studio and make a random project.
 At the top, hit *Tools* then *SDK Manager*. Select and install Android API 33, or whatever you want. Then go to the SDK Tools tab, and ensure *NDK, SDK Build-Tools, SDK Command-Line Tools, and SDK Platform-Tools* are checked (or installed with the AUR, either way).
